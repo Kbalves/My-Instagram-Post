@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 480px;
+  margin: 0 auto;
+  background-color: black;
+}
+
+header,
+main {
+  background-color: white;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+
+.header-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 10px;
+}
+
+.header-text h1 {
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.header-text p {
+  font-size: 14px;
+  line-height: 16px;
+}
+
+.header-dots i {
+  margin-left: 350px;
+}
+
+.post-content {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  padding: 10px;
+}
+
+.post-content #bookmark {
+  margin-left: 350px;
+}
+
+.post-content-text p {
+  font-size: 17px;
+  padding: 10px;
+}
+
+.post-content-text p + p {
+  font-size: 17px;
+  text-align: justify;
+  padding: 10px;
+  padding-bottom: 30px;
+}
